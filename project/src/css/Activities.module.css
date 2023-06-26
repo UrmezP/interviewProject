@@ -1,0 +1,105 @@
+.activities {
+  max-width: 767px;
+  margin: 0 auto 94px auto;
+  text-align: center;
+}
+.activities__heading {
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 49px;
+  position: relative;
+  z-index: 1;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.activities__heading::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  bottom: 0;
+  right: 0;
+  left: 15%;
+  border-radius: 10px;
+  background-color: #8fd192;
+  z-index: -1;
+}
+.activities__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 29px;
+}
+.activities__row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 33px;
+  position: relative;
+}
+.activities__article__right {
+  flex-direction: row-reverse;
+}
+.activities__row > div > div {
+  position: relative;
+  width: 201px;
+  height: 290px;
+  background-color: #8fd192;
+  border-radius: 10px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.activities__row > div > div > h3 {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.activities__row > div > div > p {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.activities__row > div:nth-child(odd) > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: -180px;
+  z-index: 0;
+}
+.activities__row > div:nth-child(even) > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: -180px;
+  z-index: 0;
+}
+@media only screen and (max-width: 1023px) {
+  .activities__row {
+    flex-direction: column;
+  }
+  .activities__row > div:nth-child(odd) > img {
+    top: 7%;
+    bottom: inherit;
+    right: 50%;
+  }
+  .activities__row > div:nth-child(even) > img {
+    bottom: 7%;
+    top: inherit;
+    left: 50%;
+  }
+  .activities__row > div:nth-of-type(odd) {
+    position: relative;
+    left: 50%;
+  }
+  .activities__row > div:nth-of-type(even) {
+    position: relative;
+    right: 50%;
+  }
+}

@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Cinzel Decorative";
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fredoka";
+}
+.container {
+  max-width: 1280px;
+  background: #f1f8ee;
+  margin: 0 auto;
+  padding-bottom: 99px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2.navLinks {
+  position: relative;
+  z-index: 2;
+}
+h2.navLinks::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0 0 0 10%;
+  background: #8fd192;
+  height: 40px;
+}
+main {
+  overflow: none;
+  max-width: 100vw;
+}
