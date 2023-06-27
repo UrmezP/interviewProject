@@ -3,9 +3,9 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 70px;
-  padding: 41px 108px 100px;
-  padding-bottom: 40px;
+  gap: 4.375px;
+  padding: 2.562rem 6.75rem 6.25rem;
+  padding-bottom: 2.5rem;
 }
 .header__nav {
   list-style-type: none;
@@ -13,21 +13,21 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 6px;
+  gap: 0.375rem;
 }
 .header__nav__item {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 0.3125rem;
   color: #8fd192;
-  border-left-width: 10px;
+  border-left-width: 0.625rem;
   border-left-color: #8fd192;
   border-left-style: solid;
-  padding-left: 5px;
+  padding-left: 0.3125rem;
   border-radius: 2px;
-  font-size: 22px;
+  font-size: 1.375rem;
   width: max-content;
 }
 .header__nav__item:nth-child(1) {
@@ -38,22 +38,22 @@
   text-align: center;
 }
 .header__heading h1 {
-  font-size: 58px;
-  line-height: 80px;
+  font-size: 3.625rem;
+  line-height: 5rem;
   font-weight: bold;
 }
 .header__heading h2 {
-  font-size: 36px;
-  line-height: 44px;
-  padding: 18px 0 29px 0;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  padding: 1.125rem 0 29px 0;
 }
 .header__heading p {
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 .header__logo {
-  max-width: 208px;
-  max-height: 208px;
+  max-width: 13rem;
+  max-height: 13rem;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -79,7 +79,7 @@
   }
   .header__heading {
     order: 3;
-    padding-bottom: 37px;
+    padding-bottom: 2.312rem;
   }
   .header__nav svg {
     display: none;

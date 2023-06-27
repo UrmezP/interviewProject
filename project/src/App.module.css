@@ -23,7 +23,7 @@ h6 {
   max-width: 1280px;
   background: #f1f8ee;
   margin: 0 auto;
-  padding-bottom: 99px;
+  padding-bottom: 6.25rem;
 }
 a {
   text-decoration: none;
@@ -40,7 +40,7 @@ h2.navLinks::before {
   z-index: 1;
   inset: 0 0 0 10%;
   background: #8fd192;
-  height: 40px;
+  height: 2.5rem;
 }
 main {
   overflow: none;

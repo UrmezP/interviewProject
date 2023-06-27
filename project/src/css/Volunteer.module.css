@@ -1,9 +1,9 @@
 .volunteer {
-  padding: 90px 108px 110px;
+  padding: 5.625rem 6.75rem 6.85rem;
 }
 .volunteer__heading {
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 3rem;
+  line-height: 3.625rem;
   text-align: center;
   width: max-content;
   margin: auto;
@@ -13,11 +13,11 @@
 .volunteer__heading::after {
   content: "";
   position: absolute;
-  height: 40px;
+  height: 2.5rem;
   bottom: 0;
   right: 0;
   left: 15%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: #8fd192;
   z-index: -1;
 }
@@ -25,47 +25,47 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 37px;
+  gap: 2.312rem;
   text-align: center;
   flex-wrap: wrap;
-  margin: 50px 0 0px 0;
+  margin: 3.125rem 0 0 0;
 }
 .volunteer__card {
-  width: 330px;
+  width: 20.625rem;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 35px 20px 0;
-  min-height: 418px;
+  padding: 2.1875rem 1.25rem 0;
+  min-height: 26.125rem;
   border: 2px solid #8fd192;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 .volunteer__card h2 {
-  padding: 37px 0 23px 0;
-  font-size: 36px;
-  line-height: 44px;
+  padding: 2.312rem 0 1.4375rem 0;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
 }
 .volunteer__card img {
-  max-width: 145px;
-  max-height: 147px;
+  max-width: 9.062rem;
+  max-height: 9.187rem;
 }
 .volunteer__card p {
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
 }
 .volunteer__card::after {
   position: absolute;
   content: "Home";
-  bottom: -20px;
+  bottom: -1.25rem;
   right: 0;
   left: 0;
   margin: 0 auto;
-  width: 186px;
-  height: 40px;
+  width: 11.625rem;
+  height: 2.5rem;
   color: black;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,6 +75,6 @@
 
 @media only screen and (max-width: 1023px) {
   .volunteer {
-    padding: 37px 34px 75px 34px;
+    padding: 2.312rem 2.125rem 4.6875rem 2.125rem;
   }
 }

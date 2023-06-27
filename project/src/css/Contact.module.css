@@ -1,8 +1,8 @@
 .contact__heading {
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 3rem;
+  line-height: 3.625rem;
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 2.812rem;
   position: relative;
   z-index: 1;
   width: max-content;
@@ -12,78 +12,78 @@
 .contact__heading::after {
   content: "";
   position: absolute;
-  height: 40px;
+  height: 2.5rem;
   bottom: 0;
   right: 0;
   left: 15%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: #8fd192;
   z-index: -1;
 }
 .contact {
-  margin: 0 108px;
-  border-radius: 10px;
+  margin: 0 6.75rem;
+  border-radius: 0.625rem;
   display: flex;
   flex-direction: row-reverse;
   background-color: #8fd192;
 }
 .contact__div {
   flex: 1 0 50%;
-  padding-top: 27px;
-  padding-left: 27px;
-  padding-right: 27px;
+  padding-top: 1.687rem;
+  padding-left: 1.687rem;
+  padding-right: 1.687rem;
 }
 .contact__div:nth-child(1) {
   border-left: 1px solid rgba(0, 0, 0, 0.4);
 }
 .contact__div p {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 38px;
+  line-height: 2.375rem;
   text-align: left;
 }
 .contact__div .contact__form {
-  padding: 26px 0 42px;
+  padding: 1.625rem 0 2.625rem;
 }
 .contact__div .contact__form .contact__form__span {
   display: inline-block;
   width: 40%;
-  margin-bottom: 18px;
-  font-size: 24px;
+  margin-bottom: 1.125rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 28px;
+  line-height: 1.75rem;
 }
 .contact__div .contact__form .contact__form__input {
   all: unset;
   width: 55%;
   background-color: #8fd192;
-  height: 30px;
+  height: 1.875rem;
   border: 1px solid rgba(0, 0, 0, 0.6);
-  border-radius: 25px;
-  padding-left: 10px;
+  border-radius: 1.562rem;
+  padding-left: 0.625rem;
 }
 .contact__div .contact__form .contact__form__input[type="submit"] {
   color: white;
   text-align: center;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 700;
-  line-height: 26px;
+  line-height: 1.625rem;
   background-color: #3eb25e;
   border: none;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 0.437rem;
+  padding-bottom: 0.437rem;
 }
 .contact__div .contact__info {
-  padding-top: 31px;
+  padding-top: 1.937rem;
   display: flex;
-  gap: 15px;
+  gap: 0.937rem;
   justify-content: space-between;
   align-items: flex-start;
 }
 .contact__div h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 900;
-  line-height: 38px;
+  line-height: 2.375rem;
 }
 .contact__div .contact__info .contact__phone > div {
   display: flex;
@@ -93,7 +93,7 @@
 .contact__div .contact__info .contact__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -106,7 +106,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
   }
   .contact__div .contact__info {
-    padding-bottom: 43px;
-    gap: 30px;
+    padding-bottom: 2.687rem;
+    gap: 1.875rem;
   }
 }
